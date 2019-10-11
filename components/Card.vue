@@ -15,7 +15,8 @@
     import DetailButton from "./DetailButton";
     export default {
         name: "Card",
-        components: {DetailButton, CardText}
+        components: {DetailButton, CardText},
+        props: ['text']
     }
 </script>
 
